@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTMl Forms</h1>
+    <form method="post" action="#">
+        <h2>Text Input</h2>
+        <label for="firstName">First Name</label>
+        <input required type="text" id="firstName" name="firstName" placeholder="Enter your first name">
+
+        <h2>Email Input</h2>
+        <label for="email" >Email</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com">
+
+        <h2>Pass Input</h2>
+        <label for="password">Password</label> 
+        <input type="password" id="password" name="password">
+
+        <h2>Date of birth</h2>
+        <label for="dob">Date of birth</label>
+        <input type="date" id="dob" name="dob">
+
+        <h2>File Picker</h2>
+        <label for="resume">Resume</label>
+        <input type="file" id="resume" name="resume" multiple accept="application/pdf">
+
+        <h2>Radio Input</h2>
+        <label>Gender</label>
+        <label><input type="radio" id="male" name="gender" checked value="M"> Male</label>
+        <label><input type="radio" id="female" name="gender" value="F"> Female</label>
+        <label><input type="radio" id="other" name="gender" value="O"> Other </label>
+
+        <h2>Checkbox Input</h2>
+        <label>Favourite Pizza</label>
+        <label for="periperi"><input type="checkbox" id="periperi" name="pizza">PeriPeri</label>
+        <label for="meatlovers"><input type="checkbox" id="meatlovers" name="pizza">MeatLovers</label>
+        <label for="margarita"><input type="checkbox" id="margarita" name="pizza">Margarita</label>
+
+        <h2>Dropdown</h2>
+        <label for="course">Course</label>
+        <select id="course" name="course">
+            <option value="">--Select Course--</option>
+            <option value="Full Stack Development">Full Stack Development</option>
+            <option value="QA Software Testing">QA Software Testing</option>
+            <option value="Data Analyst">Data Analyst</option>
+        </select>
+
+        <h2>Text Area</h2>
+        <label for="bio">Biography</label>
+        <textarea rows="10" cols="200"></textarea>
+
+        <input type="submit" value="Register Now">
+        <button type="submit" value="Register">Submit</button>
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

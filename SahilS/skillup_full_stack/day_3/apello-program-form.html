@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appello</title>
+</head>
+<body>
+    <h1>Start a project</h1>
+    <p>Get in touch with our team and receive a free project quote tailored to your unique vision.</p>
+
+    <div>
+        <p>First name*</p>
+        <label for="first-name"></label>
+        <input type="text" id="first-name" name="first-name">
+
+        <p>Last name*</p>
+        <label for="last-name"></label>
+        <input type="text" id="last-name" name="last-name">
+    </div>
+
+    <div>
+        <p>Email address*</p>
+        <label for="email"></label>
+        <input type="email" id="email" name="email">
+
+        <p>Phone number</p>
+        <label for="phone-number"></label>
+        <input type="number" id="phone-number" name="phone-number"> 
+    </div>
+
+    <div>
+        <p>Company name</p>
+        <label for="company-name"></label>
+        <input type="text" id="c-name" name="c-name">
+
+        <div id="req-services" name="req-services">
+            <p>Required service*</p>
+            <label for="required-services"></label>
+            <select id="r-services" name="r-services">
+                <option value="#" disabled selected>Select </option>
+                <option value="digital-advisory">Digital Advisory</option>
+                <option value="digital-product-design">Digital Product Design</option>
+                <option value="software-development">Software Development</option>
+                <option value="project-support">Project Support</option>
+                <option value="e2e">Full Support(End-To-End)</option>
+                <option value="O">Other</option>
+            </select>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <p>Project budget(AUD)</p>
+            <label for="p-budget"></label>
+            <select id="pj-budget" name="pj-budget">
+                <option value="#" selected></option>
+                <option value=">$50k">Under $50k</option>
+                <option value="50-150">$50k to $150k </option>
+                <option value="150-300">$150k to $300k</option>
+                <option value="300-500">$300k to $500k</option>
+                <option value="500+"> Above $500k </option>
+            </select>
+        </div>
+
+        <p>How did you hear about us?</p>
+        <label for="how-heard?"></label>
+        <input type="text" id="how-heard-about-us?" name="how-heard-about-us?">
+    </div>
+
+    <p>Project description</p>
+    <label for="project-description"></label>
+    <textarea rows="5" cols="150"></textarea> <br>
+
+    <input type="submit" value="Send">
+</body>
+</html>

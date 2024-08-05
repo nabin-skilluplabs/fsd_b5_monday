@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+</head>
+<body>
+    <h1>HTML Table</h1>
+
+    <table border="1" width="500" cellpadding="15" cellspacing="0">
+        <colgroup>
+            <col span="2" style="background-color:red">
+            <col style="background-color:yellow">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Person</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Chris</th>
+                <td>23</td>
+                <td>example@email.com</td>
+            </tr>
+            <tr>
+                <th>Alex</th>
+                <td>24</td>
+                <td>example@email.com</td>
+            </tr>
+            <tr>
+                <th>Jack</th>
+                <td>22</td>
+                <td>example@email.com</td>
+            </tr>
+            <tr>
+                <th>Brian</th>
+                <td>25</td>
+                <td>example@email.com</td>
+            </tr>
+            <tr>
+                <th>Carl</th>
+                <td>21</td>
+                <td>example@email.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Average Age</td>
+            <td>45</td>
+        </tfoot>
+    </table>
+
+    <p>A test tabe with merge cell</p>
+
+    <table border="1" width="500">
+        <thead>
+            <tr>
+                <td rowspan="2">&nbsp;</td>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red Eyes</th>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>Weight</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Males</th>
+                <td>1.9</td>
+                <td>60</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <th>Females</th>
+                <td>1.7</td>
+                <td>50</td>
+                <td>60%</td>
+            </tr>
+         </tbody>
+    </table>
+
+
+    <p>A second test tabe with merge cell</p>
+
+    <table border="1" width="500" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th rowspan="2">Day/Period</th>
+                <th rowspan="2">I 9:30-10:20</th>
+                <th rowspan="2">I 10:20-11:10</th>
+                <th rowspan="2">I 11:10-12:40</th>
+                <th rowspan="2">I 12:00-12:40</th>
+                <th rowspan="2">I 12:40-1:30</th>
+                <th rowspan="2">I 1:30-2:20</th>
+                <th rowspan="2">I 2:20-3:10</th>
+                <th rowspan="2">I 3:10-4:00</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Eng</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td rowspan="5">Lunch</td>
+                <td colspan="3">LAB</td>
+                <td>Phy</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="3">LAB</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Mat</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LIBRARY</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+            </tr>
+         </tbody>
+    </table>
+</body>
+</html>

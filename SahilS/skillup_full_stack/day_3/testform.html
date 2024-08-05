@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Got a Project? Contact Us Today</h1>
+    <p>Reach out to our team of software and app Development experts and we will help your business grow and succeed</p>
+    <div>
+        <h5>First name*</h5>
+        <label for="firstname"></label>
+        <input required type="text" id="firstName" name="firstName" placeholder="Mark">
+        <h5>Last name*</h5>
+        <label for="lastname"></label>
+        <input required type="text" id="lastName" name="lastName" placeholder="last name">
+    </div>
+    <h5>Email*</h5>
+    <label for="email"></label>
+    <input type="email" id="email" name="email">
+
+    <h5>Company*</h5>
+    <label for="text"></label>
+    <input type="company" id="company" name="company">
+
+    <h5>Phone*</h5>
+    <label for="phone"></label>
+    <input type="number" id="phone" name="phone">
+    
+    <h5>Projrct details*</h5>
+    <label for="details"></label>
+    <textarea rows="5" cols="70"></textarea>
+
+    <h5>Project expected budget*</h5>
+    <label><input type="radio" id=">$25k" name="budget" checked value=">25k"> less than $25k</label><br>
+    <label><input type="radio" id="$25k-$50k" name="budget" value="25-50"> $25k - $50k</label><br>
+    <label><input type="radio" id="$50-$100k" name="budget" value="50-100"> $50k - $100k </label><br>
+    <label><input checked type="radio" id="$100k+" name="budget" value="$100k+"> $100k+ </label><br>
+   
+    <h5>Required Service*</h5>
+    <label><input type="radio" id="wap" name="service" checked value="Web application Development"> Web application Development</label><br>
+    <label><input type="radio" id="mad" name="service" value=" Mobile application Development"> Mobile application Development</label><br>
+    <label><input type="radio" id="st" name="service" value="Software Testing"> Software Testing </label><br>
+    <label><input checked type="radio" id="Other" name="service" value="O"> Other </label><br>
+   
+    <input type="submit" value="Send message" >
+</body>
+</html>
