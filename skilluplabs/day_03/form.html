@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <form method="post" action="#">
+        <h2>Text Input</h2>
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" value="Alex" required name="firstName" placeholder="Enter your first name">
+
+        <h2>Email Input</h2>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address">
+
+        <h2>Password Input</h2>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" >
+
+        <h2>Date picker</h2>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+
+        <h2>File Picker</h2>
+        <label for="resume">Resume</label>
+        <input type="file" id="resume" name="resume" multiple accept="application/pdf">
+
+        <h2>Radio Input</h2>
+        <label>Gender</label>
+        <input type="radio" id="male" name="gender" checked value="M">  <label for="male"> Male</label>
+        <label for="female"><input type="radio" id="female" name="gender" value="F"> Female</label>
+        <label for="other"><input type="radio" id="other" name="gender" value="O"> Other</label>
+
+        <h2>Checkbox Input</h2>
+        <label>Favourite Pizza</label>
+        <label for="periperi"><input type="checkbox" id="periperi" name="pizza" checked value="Peri Peri"> Peri Peri</label>
+        <label for="meatlovers"><input type="checkbox" id="meatlovers" name="pizza" value="Meat Lovers"> Meat Lovers</label>
+        <label for="margarita"><input type="checkbox" id="margarita" name="pizza" value="Margarita"> Margarita</label>
+    
+        <h2>Dropdown</h2>
+        <label for="course">Course</label>
+        <select id="course" name="course">
+            <option value="">--Select Course--</option>
+            <option value="Full stack development">Full Stack Development</option>
+            <option value="QA and Software Testing">QA and Software Testing</option>
+            <option value="Data Analytics">Data Analytics</option>
+        </select>
+
+        <h2>Textarea</h2>
+        <label for="bio">Biography</label>
+        <textarea rows="10" cols="200"></textarea>
+
+        <button type="submit"> Register Now </button>
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
