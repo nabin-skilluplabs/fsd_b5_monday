@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Fundamental</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href=".css/color.css">
+    <link rel="stylesheet" href="./css/color.css">
 </head>
 <body>
-    <h1>CSS Fundamental</h1>
-    <p>CSS enables you to add style to your web pages including color, text, positioning and layout, and animation. In our first CSS module, we cover all the fundamental language mechanics you need to understand how CSS works.</p>
-    <p class="red-text">CSS enables you to add style to your </p>
+    <header class="tiny-text">
+        <h1>CSS Fundamental</h1>
+        <p class="tiny-text"> CSS enables you to add style to your web pages including color, text, positioning and layout, and animation. In our first CSS module, we cover all the fundamental language mechanics you need to understand how CSS works.</p>
+        <p class="red-text">CSS enables you to add style to your </p>
+    </header>
 
     <ul id="gray-list">
         <li>Rules</li>
@@ -20,5 +22,20 @@
         <li>Values</li>
         <li>At-rules and descriptors</li>
     </ul>
+
+    <form>
+        <div>
+            <label for="name">Name</label><br/>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="email">Email</label><br/>
+            <input type="email" name="email" id="email">
+        </div>
+        <button  id="upper-btn" class="red-btn">Register Here</button>
+
+        <button class="red-btn">Sign In</button>
+    </form>
+
 </body>
 </html>
