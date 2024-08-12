@@ -1,0 +1,16 @@
+h1{
+    font-size: 100 px;
+     color: blue;
+}
+p{
+    font-size: 100 px;
+     color: blue;
+}
+.red-text{
+    color: red;
+}
+#gray-list{
+    font-size: 18px;
+    color:gray;
+    font-style: italic;
+}
