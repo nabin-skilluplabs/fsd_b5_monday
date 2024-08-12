@@ -10,8 +10,8 @@
 <body>
     
     <header >
-        <h1>CSS Fundamentals</h1>
-        <p>CSS enables you to add style to your web pages including color, text, positioning and layout, and animation. In our first CSS module, we cover all the fundamental language mechanics you need to understand how CSS works.
+        <h1 class="tiny-text">CSS Fundamentals</h1>
+        <p class="tiny-text">CSS enables you to add style to your web pages including color, text, positioning and layout, and animation. In our first CSS module, we cover all the fundamental language mechanics you need to understand how CSS works.
         </p>
     </header>
 
@@ -25,5 +25,19 @@
         <li>Values (including shorthand values).</li>
         <li>At-rules and descriptors.</li>
     </ul>
+
+    <form>
+        <div>
+            <label for="name">Name</label> <br />
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="email">Email</label> <br />
+            <input type="email" name="email" id="email">
+        </div>
+        <button class="red-btn" id="upper-btn">Register Here</button>
+
+        <button class="red-btn tiny-text">Sign In</button>
+    </form>
 </body>
 </html>

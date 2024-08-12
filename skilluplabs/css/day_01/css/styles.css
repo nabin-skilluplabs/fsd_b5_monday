@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
 h1 {
     font-size: 100px;
     color: blue;
@@ -16,4 +21,30 @@ p {
     font-size: 18px; 
     color: gray; 
     font-style: italic
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.red-btn {
+    background-color: red;
+}
+
+#upper-btn {
+    text-transform: uppercase;
+}
+
+input[type="email"] {
+    font-size: 20px;
+    border: 10px solid green;
+}
+
+p.tiny-text, 
+h1.tiny-text {
+    font-size: 20px;
+    font-style: italic;
+    opacity: 0.8;
 }
