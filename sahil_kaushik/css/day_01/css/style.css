@@ -1,16 +1,43 @@
+
+*{ margin: 0px;
+    padding: 0px;
+}
 h1{
-    font-size: 100 px;
+    font-size: 100px;
      color: blue;
 }
 p{
-    font-size: 100 px;
+    font-size: 100px;
      color: blue;
 }
 .red-text{
+    font-size: 100px;
     color: red;
 }
 #gray-list{
     font-size: 18px;
     color:gray;
     font-style: italic;
+}
+button{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.red-btn{
+    background-color: red;
+}
+#upper-btn{
+    text-transform: uppercase;
+}
+
+label{
+    color: white;
+}
+input[type="email"]{
+    font-size: 20px;
+    border: 10px solid green;
+}
+p.tiny-text, h1.tiny-text{
+    font-size: 20px;
 }
