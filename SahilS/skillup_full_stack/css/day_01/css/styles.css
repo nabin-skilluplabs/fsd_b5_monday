@@ -1,0 +1,20 @@
+
+h1 {
+    font-size: 100px; 
+    color: blue;
+}
+p {
+   font-size: 100px; 
+    color: red;
+}
+.red-text{
+    color: red;
+}
+#gray-list {
+    font-size: 30px; 
+    color: gray; 
+    font-style: italic;
+}
+#yellow{
+    color: blue;
+}
