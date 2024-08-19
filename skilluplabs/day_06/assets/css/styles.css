@@ -1,0 +1,120 @@
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    padding: 10px;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: red;
+}
+
+nav a:active {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+}
+input:focus {
+    background-color: aqua;
+}
+
+form div:first-child {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+form div:last-child {
+    border: 1px solid green;
+    padding: 10px;
+}
+form div:nth-child(2) {
+    background-color: green;
+}
+
+input[type="submit"]:disabled {
+    border: 1px solid red;
+}
+
+p::first-line {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 50px
+}
+ul {
+    list-style: none;
+}
+
+li {
+  border: 1px solid green;  
+}
+li::before {
+    content: " ";
+    list-style: none;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 3px 0px 3px 0px;
+}
+
+li::after {
+    content: " ";
+    list-style: none;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 3px 0px 3px 0px;
+}
+
+input[type="email"] {
+    font-size: 20px;
+    padding: 5px;
+    color: red;
+}
+
+input[type="email"]::placeholder {
+    color: blue;
+    font-style: italic;
+}
+
+article.intro-text p::selection { 
+    background-color: yellow;
+   color: red;
+}
+
+h2.blue-title {
+    color: blue;
+}
+
+p.intro-text{
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+p.reset::first-letter {
+    font-size: 16px;
+}
+p.reset::first-line {
+    font-size: 16px;
+    font-weight: normal;
+}
+.italic {
+    font-style: italic;
+}
