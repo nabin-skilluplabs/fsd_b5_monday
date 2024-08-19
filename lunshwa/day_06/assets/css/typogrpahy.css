@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Bungee Tint", sans-serif;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 400;
+    font-family: "Bungee Tint", sans-serif;
+}
+
+h2{
+    text-align: right;
+    text-decoration: underline;
+    text-overflow: ellipsis;
+
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+p{
+    line-height: 1.6em;
+    font-stretch: extra-expanded;
+    color:blue;
+}
