@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e3e7eb;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.card-outer {
+    max-width: 485px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 25px auto;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    z-index: 5;
+}
+
+.card-outer img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-content {
+    padding: 45px 35px;
+}
+
+.card-content .pill {
+    color: #2b8043;
+    background-color: #f1fef7;
+    border: 1px solid #caf1d4;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.card-content h2 {
+    font-weight:500;
+    margin: 25px 0 35px 0;
+    font-size: 28px;
+}
+
+.card-content  p {
+    color: #5a5a5a;
+    line-height: 1.6em;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.card-content  footer a {
+    color: #4939b5;
+    text-decoration: none;
+    background-color: #e3e7eb;
+    padding: 10px 15px;
+    border-radius: 20px;
+    visibility: hidden;
+}
+
+.card-content  footer a:hover {
+    text-decoration: underline;
+   
+}
+
+.card-outer:hover footer a {
+    visibility: visible;
+}
+
+
+.card-content  footer a i {
+    margin-left: 10px;
+}
+
+.modal-overlay{ 
+    background-color: rgba(0, 0, 0 , 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.chat-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 10;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    right: 10px;
+    bottom: 10px;
+}

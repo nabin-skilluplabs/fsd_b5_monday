@@ -1,0 +1,21 @@
+body {
+    background-color: beige;
+}
+
+.box-1 {
+    width: 50%;
+    height: 200px;
+    border: 1px solid #000000;
+    border-top-width: 5px;
+    border-top-style: dotted;
+    border-top-color: aqua;
+    padding: 25px 10px 5px 15px;
+    margin: 25px 20px 10px 5px;
+}
+
+.box-1-a {
+    border: 1px solid red;
+    width: 50%;
+    background-color: aliceblue;
+    padding: 15px;
+}
