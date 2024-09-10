@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    background-color: #ED4545;
+    font-family: "Inter", sans-serif;
+    display: flex;
+}
+.left{
+    padding: 5vw 20vh;
+    width: 50%;
+    height: 100vh;
+    color: white;
+}
+.right{
+    width: 50%;
+    height: 100vh;
+}
+form{padding: 20%;
+    background-color: white;
+}
