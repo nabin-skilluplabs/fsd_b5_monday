@@ -1,0 +1,25 @@
+body{
+    background-color: #ED4545;
+}
+
+section{
+    display: flex;
+    width: min(100vh,1280px);
+    margin: 310px 0;
+}
+
+.contact-intro{
+    color: #ffffff;
+}
+
+.contact-intro h3{
+    font-size: 24px;
+}
+
+.contact-intro h2{
+    font-size: 36px;
+}
+
+.contact-intro p{
+    font-size: 18px;
+}
