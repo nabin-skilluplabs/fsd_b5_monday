@@ -1,0 +1,97 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --primary-font: "Inter", system-ui;
+    --body-bg: #000000;
+    --text-color:#ffffff;
+    --default-font-size: 16px;
+    --banner-font-size: 48px;
+    --section-spacing: 25px;
+
+}
+
+body{
+    background-color: var(--body-bg);
+    color: var(--text-color);
+    font-family: var(--primary-font);
+    font-size: var(--default-font-size);
+}
+
+.hero{
+    background-image: url(../images/banner.png);
+    padding: 25px 0;
+    filter: brightness(85%);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-wrap{
+    max-width: 1075px;
+    width: 100%;
+
+}
+
+.hero h2{
+    font-size: var(--banner-font-size);
+    border: 5px solid #ffffff;
+    max-width: 414px;
+    width: 100%;
+    padding: var(--section-spacing);
+    font-weight: bold;
+    line-height: 1.2em;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+
+}
+
+.hero .section-wrap{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main{
+    padding: var(--section-spacing);
+    display: flex;
+}
+
+.main .section-wrap{
+    display: flex;
+    gap: 30px;
+}
+
+.main .section-wrap .content{
+    flex-basis: 50%;
+}
+
+.main .section-wrap .content h3{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: var(--section-spacing);
+}
+
+.main .section-wrap .content p{
+    line-height: 1.6;
+}
+
+.stats{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--section-spacing);
+}
+
+.stats > div {
+    flex-basis: calc(50%- var(--section-spacing) / 2 ) ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.stats .count{
+    font-size: 96px;;
+
+
