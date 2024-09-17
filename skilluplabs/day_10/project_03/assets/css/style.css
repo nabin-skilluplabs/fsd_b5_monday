@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+    color: white;
+    background-color: black;
+}
+.top{
+    height: 511px;
+    width: 100%;
+    background-color: white;
+    background-image: url('/skilluplabs/day_10/project_03/assets/images/img1.png');
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.slogan-1{
+    width: 50vw;
+}
+.slogan{
+    width: calc(50vw - 180px - 20px);
+    border: 2px solid white;
+    margin: 40px 180px 40px 0px;
+    padding: 20px;
+    
+}
