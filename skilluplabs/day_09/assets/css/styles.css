@@ -1,0 +1,98 @@
+body {
+    background-color: azure;
+}
+.box-1 {
+    border: 1px solid black;
+    height: calc(100vh/4);
+    width: calc((80vw - 20px)/2);
+}
+
+.box-2 {
+    font-size: clamp(1em, 3vw, 3em);
+}
+
+.box-3 {
+    border: 1px solid black;
+    height: 100px;
+    width: max(50vw, 700px);
+    cursor: crosshair;
+}
+
+.box-with-content {
+    background-color: antiquewhite;
+    padding: 15px;
+    text-align: center;
+}
+
+.box-with-block-content {
+    background-color: blue;
+    padding: 15px;
+    float: left;
+    width: 100%;
+}
+
+.child-box {
+    border: 1px solid red;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 10px;
+}
+
+.child-box-1 {
+    float: left;
+
+}
+
+.child-box-2 {
+    float: right;
+}
+
+.child-box-3 {
+    float: right;
+}
+
+.box-with-block-content div {
+    color: white;
+}
+
+.info > div {
+    border: 1px solid green;
+    padding: 10px;
+    margin: 15px;
+    clear: both;
+}
+
+.info > div:first-child ~ div {
+    border: 10px solid red;
+}
+
+.banner {
+    width: 50vw;
+    height: auto;
+    filter: blur(1px);
+    filter: brightness(40%);
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+}
+
+.transparent-img {
+    width: 200px;
+    height: auto;
+    /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); */
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+    filter: grayscale(100%);
+    filter: opacity(50%);
+    transform: scale(200%);
+}
+
+.transform-1 {
+    font-size: 10px;
+    transform: scale(200%);
+    width: 100px;
+}
+
+.skew-element {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: translate(100px, 50px);
+}

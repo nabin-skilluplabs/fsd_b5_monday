@@ -1,0 +1,108 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    background-color: aqua;
+    padding: 15px;
+    display: grid;
+    height: 50vh;
+
+    grid-template-columns: [first-column-start] 200px [second-column-start] 200px [third-column-start] 200px [fourth-column-start] 200px [column-end];
+    grid-template-rows: [first-row-start] 1fr [second-row-start] 3fr [third-row-start] 1fr [row-end];
+
+    grid-template-areas: 
+        "header  header   . ."
+        "left-column  main  main  right-column"
+        "footer  footer  footer  footer"
+    ;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+
+    justify-content: center;
+}
+.item {
+    background-color: black;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+.item-1 {
+    grid-area: 1 / 1 / 3 / 3;
+    background-color: blue;
+    z-index: 5
+}
+
+.item-3{
+    background-color: blueviolet;
+    grid-area: left-column;
+    z-index: 6;
+}
+
+.item-2 {
+    grid-area:  main;
+    background-color: green;
+}
+
+.item-10 {
+    background-color: red;
+    grid-row: second-row-start / span 2;
+    grid-column: third-column-start / span 2;
+}
+
+
+.calculator-grid {
+    display: grid;
+    width: 365px;
+    height: 249px;
+    gap: 7px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2fr repeat(4, 1fr);
+    margin: 15px;
+}
+
+.calculator-grid input[type="text"] {
+    grid-area: 1 / 1 / 2 / 5 ;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.calculator-grid button {
+    font-size: 12;
+    background-color: #EFF1F2;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+.calculator-flex {
+    width: 365px;
+    height: 249px;
+    gap: 7px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.calculator-flex input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    height: 73px;
+}
+.calculator-flex button {
+    font-size: 12;
+    background-color: #EFF1F2;
+    border: none;
+    border-radius: 3px;
+    height: 36px;
+    width: 86px;
+}
+
+button.equals-btn {
+    background-color: #23A5E6;
+}

@@ -1,0 +1,64 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --primary-font: "Inter";
+    --primary-text-color: "#000";
+    font-size: 10px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: var(--primary-font);
+    font-size: 1.6rem;
+}
+
+/* START BANNER STYLES */
+.banner {
+    background-image: url('../images/banner_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: max(50vh, 542px);
+    display: flex; 
+    justify-content: center;
+    padding-top: 133px;
+    box-sizing: border-box;
+}
+/* END BANNER STYLES */
+
+/* START PRODUCTS */
+.products-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.products-inner-wrapper {
+    width: min(100%, 1066px);
+    display: flex;
+    gap: 75px;
+    top: -120px;
+    position: relative;
+}
+.product-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.product-item h3 {
+    font-weight: 600;
+    line-height: 2rem;
+    height: 40px;
+}
+.product-item h3 a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.product-item h3 a:hover {
+    text-decoration: underline;
+}
+.product-item .price {
+    font-weight: 600;
+    font-size: 20px;
+}
+/* END PRODUCTS */
