@@ -101,7 +101,7 @@ section {
 @media screen and (max-width: 500px) {
     .inner-section {
         display: flex;
-        flex-direction: column;
+        flex-direction: columno;
     }
     
 }
