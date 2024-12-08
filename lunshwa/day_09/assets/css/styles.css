@@ -1,0 +1,91 @@
+body{
+    background-color: azure;
+}
+
+.box-1{
+    border: 1px solid black;
+    height: calc(100vh/2);
+    width: calc(80vw - 20px/2);
+}
+
+.box-2{
+    font-size: clamp(1em,3vw, 5em);
+}
+
+.box-3{
+    border: 1px solid black;
+    height: 100px;
+    width: max(50vw, 700px);
+    cursor: crosshair;
+}
+
+.box-with-block-content{
+    background-color: aquamarine;
+    padding: 15px;
+    clear: both;
+}
+
+.child-box{
+    border: 1px solid red;
+    height: 30px;
+    width: 30px;
+    font-size: 2rem;
+    padding:10px;
+    margin: 10px;
+}
+
+.child-box-1 {
+    float: left;
+}
+
+.child-box-2 {
+    float: right;
+}
+
+.child-box-3{
+    float: left;
+}
+
+.box-with-block-content{
+    color: white;
+}
+
+.info > div{
+    border: 1px solid green;
+    margin: 10px;
+    padding: 10px;
+    clear: both;
+}
+
+.info div:first-child ~ div{
+    border: 10px solid red;
+}
+
+.banner{
+    width: 50vw;
+    height: auto;
+    filter: blur(1px);
+    filter: brightness(40%);
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.5));
+}
+
+.transparent-img{
+    width: 200px;
+    height: auto;   
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.5));
+    filter: grayscale(100%);
+}
+
+.transform-1{
+    transform: rotate(90deg);
+    width: 200px;
+    height: auto;
+    transform: scale(50%);
+}
+
+.skew-element{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: translate(100px, 50px);
+}
